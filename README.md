@@ -1,2 +1,190 @@
 # PixelTouch-PTY-LTD-2
 Fixed and Updated version of the original PixelTouch PTY LTD website - more functions and more variety and useable buttons and links. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PixelTouch PTY LTD — CCTV, TV & Appliance Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ============================
+     HEADER
+=============================== -->
+<header>
+  <div class="nav-wrapper">
+
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+          <a href="cctv.html">CCTV</a>
+          <a href="repair.html">Repair & Maintenance</a>
+          <a href="tv-install.html">TV Installations</a>
+          <a href="appliance.html">Appliance Installation</a>
+          <a href="other.html">Other</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo">PixelTouch PTY LTD</div>
+
+    <div class="nav-right">
+      <a href="pricing.html">Pricing</a>
+      <a href="portfolio.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+  </div>
+</header>
+
+
+<!-- ============================
+     HERO SECTION
+=============================== -->
+<section class="hero-upgraded">
+  <div class="hero-upgraded-content">
+    <h1>Professional CCTV, TV & Appliance Installations</h1>
+    <p>Reliable, affordable and high‑quality installation and repair services across Brisbane.</p>
+    <a href="quote.html" class="cta">Get a Quote</a>
+  </div>
+
+  <div class="hero-upgraded-image">
+    <img src="https://images.pexels.com/photos/5380665/pexels-photo-5380665.jpeg" alt="CCTV installation">
+  </div>
+</section>
+
+
+<!-- ============================
+     WHAT WE DO
+=============================== -->
+<section class="home-services">
+  <h2>What We Do</h2>
+
+  <div class="home-services-grid">
+
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/4790261/pexels-photo-4790261.jpeg" alt="CCTV">
+      <h3>CCTV Installation</h3>
+      <p>High‑quality camera systems for homes and businesses.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/4790260/pexels-photo-4790260.jpeg" alt="TV install">
+      <h3>TV Wall Mounting</h3>
+      <p>Clean, secure and perfectly aligned TV installations.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg" alt="Appliance install">
+      <h3>Appliance Installation</h3>
+      <p>Professional installation for home and commercial appliances.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ============================
+     WHY CHOOSE US
+=============================== -->
+<section class="why-us">
+  <h2>Why Choose PixelTouch?</h2>
+
+  <div class="why-grid">
+    <div class="why-box">
+      <h3>✔ Fast & Reliable</h3>
+      <p>Same‑day and next‑day service available across Brisbane.</p>
+    </div>
+
+    <div class="why-box">
+      <h3>✔ Professional Workmanship</h3>
+      <p>Clean, precise and high‑quality installations every time.</p>
+    </div>
+
+    <div class="why-box">
+      <h3>✔ Affordable Pricing</h3>
+      <p>Transparent quotes with no hidden fees.</p>
+    </div>
+
+    <div class="why-box">
+      <h3>✔ Fully Insured</h3>
+      <p>Your home and equipment are always protected.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ============================
+     RECENT WORK
+=============================== -->
+<section class="recent-work">
+  <h2>Recent Work</h2>
+
+  <div class="recent-grid">
+    <img src="https://images.pexels.com/photos/5380665/pexels-photo-5380665.jpeg" alt="CCTV repair">
+    <img src="https://images.pexels.com/photos/4790261/pexels-photo-4790261.jpeg" alt="Camera maintenance">
+    <img src="https://images.pexels.com/photos/4790260/pexels-photo-4790260.jpeg" alt="TV installation">
+  </div>
+</section>
+
+
+<!-- ============================
+     CTA BANNER
+=============================== -->
+<section class="cta-banner">
+  <h2>Ready to Get Started?</h2>
+  <p>Fast, friendly and professional service — every time.</p>
+  <a href="quote.html" class="cta">Request a Quote</a>
+</section>
+
+
+<!-- ============================
+     CUSTOMER REVIEWS (FINAL)
+=============================== -->
+<section class="reviews-home">
+  <h2>5‑Star Customer Reviews</h2>
+  <p>Trusted service, fast responses, and 24/7 customer support.</p>
+
+  <div class="reviews-grid">
+
+    <div class="review-box">
+      <p>"Amazing service — fast, clean and super professional. Couldn’t be happier."</p>
+      <strong>Sarah M.</strong>
+    </div>
+
+    <div class="review-box">
+      <p>"Installed perfectly and explained everything clearly. Highly recommend."</p>
+      <strong>Daniel K.</strong>
+    </div>
+
+    <div class="review-box">
+      <p>"Great communication and very reliable. The job was done the same day."</p>
+      <strong>Emily R.</strong>
+    </div>
+
+    <div class="review-box">
+      <p>"Top‑quality workmanship. Everything looks neat and works flawlessly."</p>
+      <strong>Michael T.</strong>
+    </div>
+
+    <div class="review-box">
+      <p>"Professional, friendly and extremely efficient. Five stars easily."</p>
+      <strong>Laura S.</strong>
+    </div>
+
+    <div class="review-box">
+      <p>"Excellent service with 24/7 support — they really care about customers."</p>
+      <strong>James P.</strong>
+    </div>
+
+  </div>
+</section>
+
+
+</body>
+</html>
