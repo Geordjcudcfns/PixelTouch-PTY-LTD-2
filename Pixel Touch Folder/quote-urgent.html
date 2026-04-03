@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Urgent Job Quote — PixelTouch</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .urgent-hero {
+      background: #d00000;
+      color: #fff;
+      padding: 70px 20px;
+      text-align: center;
+    }
+    .urgent-img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 0;
+    }
+    .urgent-form {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .urgent-form input, .urgent-form textarea {
+      width: 100%;
+      padding: 14px;
+      margin-bottom: 14px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>…</header>
+
+<section class="urgent-hero">
+  <h1>⚠️ Urgent Job Request</h1>
+  <p>Need it done today or tomorrow? Priority service available.</p>
+</section>
+
+<img class="urgent-img" src="https://images.pexels.com/photos/4790260/pexels-photo-4790260.jpeg">
+
+<form class="urgent-form" action="https://formspree.io/f/xreoanaa" method="POST">
+  <h2>Request Priority Service</h2>
+
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="text" name="phone" placeholder="Phone" required>
+  <input type="text" name="urgent" placeholder="What do you need urgently?" required>
+  <input type="text" name="time" placeholder="How soon? (Today, ASAP…)" required>
+  <textarea name="details" rows="6" placeholder="Describe the issue or installation"></textarea>
+
+  <button class="cta" type="submit">Submit Urgent Request</button>
+</form>
+
+</body>
+</html>

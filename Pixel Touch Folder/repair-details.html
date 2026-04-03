@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Repair Details — PixelTouch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="nav-wrapper">
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+          <a href="cctv.html">CCTV</a>
+          <a href="repair.html">Repair & Maintenance</a>
+          <a href="tv-install.html">TV Installations</a>
+          <a href="appliance.html">Appliance Installation</a>
+          <a href="other.html">Other</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="logo">PixelTouch PTY LTD</div>
+
+    <div class="nav-right">
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+
+<section class="quote-header">
+  <h1>Your Repair Details</h1>
+  <p>Tell us what needs fixing and we’ll prepare your quote.</p>
+</section>
+
+<section class="contact-body">
+
+  <div class="contact-right">
+    <form action="https://formspree.io/f/xreoanaa" method="POST">
+
+      <input type="hidden" name="Repair Type" id="repairType">
+
+      <label>Your Name</label>
+      <input type="text" name="name" required>
+
+      <label>Your Email</label>
+      <input type="email" name="email" required>
+
+      <label>Your Phone</label>
+      <input type="text" name="phone" required>
+
+      <label>Suburb / Location</label>
+      <input type="text" name="location" required>
+
+      <label>Describe the issue</label>
+      <textarea name="message" rows="6" required></textarea>
+
+      <button type="submit" class="cta">Request Repair Quote</button>
+    </form>
+  </div>
+
+</section>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+document.getElementById("repairType").value = params.get("repair") || "";
+</script>
+
+</body>
+</html>

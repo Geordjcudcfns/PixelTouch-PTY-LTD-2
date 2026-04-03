@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Appliance Installation Quote — PixelTouch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <div class="nav-wrapper">
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Services</button>
+        <div class="dropdown-content">
+          <a href="cctv.html">CCTV</a>
+          <a href="repair.html">Repair & Maintenance</a>
+          <a href="tv-install.html">TV Installations</a>
+          <a href="appliance.html">Appliance Installation</a>
+          <a href="other.html">Other</a>
+        </div>
+      </div>
+    </div>
+    <div class="logo">PixelTouch PTY LTD</div>
+    <div class="nav-right">
+      <a href="pricing.html">Pricing</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<section class="service-hero">
+  <h1>Appliance Installation Quote</h1>
+  <p>Dishwashers, ovens, dryers, cooktops and more — installed safely and professionally.</p>
+</section>
+
+<section class="service-content">
+
+  <img src="https://images.pexels.com/photos/5591591/pexels-photo-5591591.jpeg"
+       style="width:100%; border-radius:12px; margin-bottom:25px;">
+
+  <h2>Get an Appliance Installation Quote</h2>
+  <p>
+    We install a wide range of home and commercial appliances.  
+    Tell us what you need installed and we’ll confirm pricing and availability.
+  </p>
+
+  <form action="https://formspree.io/f/xreoanaa" method="POST" style="margin-top:30px;">
+    <label>Full Name</label>
+    <input type="text" name="name" required>
+
+    <label>Email</label>
+    <input type="email" name="email" required>
+
+    <label>Phone</label>
+    <input type="text" name="phone" required>
+
+    <label>Appliance Type</label>
+    <input type="text" name="appliance" placeholder="Dishwasher, oven, dryer…" required>
+
+    <label>Installation Location</label>
+    <input type="text" name="location" placeholder="Kitchen, laundry, commercial space…" required>
+
+    <label>Additional Details</label>
+    <textarea name="details" rows="6" placeholder="Any wiring, plumbing or space requirements?"></textarea>
+
+    <button class="cta" type="submit">Submit Appliance Quote</button>
+  </form>
+
+</section>
+
+</body>
+</html>
